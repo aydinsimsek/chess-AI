@@ -1,0 +1,26 @@
+.board 
+{
+    margin: auto;
+    width: 400px;    
+}
+
+.progress-bar 
+{
+    margin: auto;
+    width: 200px;   
+    font-size: 20px;  
+    accent-color: black;
+}
+
+.performance
+{   
+    margin: auto;  
+    width: 400px;
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.highlight 
+{
+    box-shadow: inset 0 0 3px 3px yellow;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> chess-AI </title> 
+  <link rel = "stylesheet" href = "lib/chessboardjs/css/chessboard-1.0.0.min.css">
+  <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  <div class = "performance">
+    <p> 
+      <span id = "count"> N/A </span> positions are evaluated in 
+      <span id = "timespan"> N/A </span> seconds 
+      <br> 
+      (Approximately <span id = "positions-per-sec"> N/A </span> positions per second) 
+    </p> 
+  </div> 
+  <div class = "board" id = "board"> </div>  
+  <div class = "progress-bar"> 
+    <br>
+    <br>
+    Total Piece Value Ratio
+    <br>  
+    <progress id = "progress" value = "50" max = "100"> </progress> 
+  </div> 
+  <script src = "https://code.jquery.com/jquery-1.12.4.min.js"> </script> 
+  <script src = "lib/chessboardjs/js/chessboard-1.0.0.min.js"> </script>  
+  <script src = "lib/chess.js"> </script>    
+  <script src = "./script.js"> </script>      
+</body>
+</html>
