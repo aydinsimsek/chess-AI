@@ -8,5 +8,7 @@ The number of evaluated moves are limited by pruning the search when it's decide
 
 As it can be seen in the demonstration, if capturing a piece would result in losing a more valuable piece, AI does not greedily captures that piece; it simply avoids the capturing even if there is a threat of being captured.  
 
-On the other hand, it's not that wise when it comes to the endgames. Since this algorithm does not teach how to force a checkmate, it sometimes blows up a huge lead when it's in a winning position.
- 
+On the other hand, it's not that wise when it comes to the endgames. Since this algorithm does not teach how to force a checkmate, it sometimes blows up a huge lead when it's in a winning position.  
+
+## Try It Out
+https://aydinsimsek.github.io/chess-AI/
